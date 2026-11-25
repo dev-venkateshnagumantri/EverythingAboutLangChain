@@ -7,7 +7,19 @@ authors = [
     { name = "Venkatesh Nagumantri", email = "venkateshnagumantri01@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ddgs>=9.16.1",
+    "jupyter>=1.1.1",
+    "langchain>=1.4.7",
+    "langchain-anthropic>=1.7.7",
+    "langchain-community>=0.4.2",
+    "langchain-livetennis>=0.2.0",
+    "langchain-openai>=1.7.3",
+    "langchain-tavily>=0.2.18",
+    "load-dotenv>=0.1.0",
+    "openai>=3.42.1",
+    "wikipedia>=1.4.0",
+]
 
 [project.scripts]
 genaipractice = "genaipractice:main"
