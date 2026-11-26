@@ -70,14 +70,6 @@ Create the environment and install dependencies:
 uv sync
 ```
 
-Alternatively, install with `pip`:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -e .
-```
-
 ## Environment Variables
 
 Copy `env-proto` to `.env`, then add the credentials required by the notebooks:
